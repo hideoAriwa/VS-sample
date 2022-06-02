@@ -1,0 +1,51 @@
+﻿Build started 11/13/2018 1:40:15 PM.
+     1>Project "D:\Develop\VC9Play\VC9Play\VC9Play.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\VC9Play.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\VC9Play.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VC9PlayDlg.cpp
+         VC9PlayDlg.cpp
+     1>VC9PlayDlg.cpp(605): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>VC9PlayDlg.cpp(956): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>VC9PlayDlg.cpp(963): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>VC9PlayDlg.cpp(1185): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(311) : see declaration of 'wcstok'
+     1>VC9PlayDlg.cpp(1190): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(311) : see declaration of 'wcstok'
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Release\VC9Play.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\VC9Play.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Develop\VC9Play\Release\VC9Play.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Release\VC9Play.lib" /MACHINE:X86 Release\VC9Play.res
+         Release\AddPathDlg.obj
+         Release\FileManager.obj
+         Release\FileOperations.obj
+         Release\OptionDlg.obj
+         Release\SetDirDlg.obj
+         Release\SetTimeDialog.obj
+         Release\stdafx.obj
+         Release\SystemManager.obj
+         Release\VC9Play.obj
+         Release\VC9PlayDlg.obj
+         D:\Develop\VC9Play\Release\Manager.lib
+            Creating library ..\Release\VC9Play.lib and object ..\Release\VC9Play.exp
+         Generating code
+         Finished generating code
+         VC9Play.vcxproj -> D:\Develop\VC9Play\VC9Play\..\Release\VC9Play.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Release\VC9Play.exe;#1" /manifest Release\VC9Play.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       CustomBuildStep:
+         Description: Copying Protection Files to ...
+         Copier_Release.cmd
+         
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "Release\VC9Play.unsuccessfulbuild".
+         Touching "Release\VC9Play.lastbuildstate".
+     1>Done Building Project "D:\Develop\VC9Play\VC9Play\VC9Play.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.13

@@ -1,0 +1,25 @@
+﻿Build started 11/13/2018 1:40:14 PM.
+     1>Project "D:\Develop\VC9Play\Manager\Manager.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Manager.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MANAGER_EXPORTS /D _WIN32_WINNT=1024 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release/Manager.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Manager.cpp
+         Manager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Release\Manager.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\Manager.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"..\Release/Manager.pdb" /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Release/Manager.lib" /MACHINE:X86 /DLL .\Release/Manager.obj
+         .\Release/StdAfx.obj
+            Creating library ..\Release/Manager.lib and object ..\Release/Manager.exp
+         Generating code
+         Finished generating code
+         Manager.vcxproj -> D:\Develop\VC9Play\Manager\..\Release\Manager.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Release\Manager.dll;#2" /manifest .\Release\Manager.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Manager.unsuccessfulbuild".
+         Touching ".\Release\Manager.lastbuildstate".
+     1>Done Building Project "D:\Develop\VC9Play\Manager\Manager.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54

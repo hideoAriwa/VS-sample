@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VC9Play", "VC9Play\VC9Play.vcproj", "{691891FE-380F-4AC8-9990-79B95CFC14E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9741D40-3B7C-4A8E-92B6-24C87D202CD2} = {D9741D40-3B7C-4A8E-92B6-24C87D202CD2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Manager", "Manager\Manager.vcproj", "{D9741D40-3B7C-4A8E-92B6-24C87D202CD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691891FE-380F-4AC8-9990-79B95CFC14E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{691891FE-380F-4AC8-9990-79B95CFC14E9}.Debug|Win32.Build.0 = Debug|Win32
+		{691891FE-380F-4AC8-9990-79B95CFC14E9}.Release|Win32.ActiveCfg = Release|Win32
+		{691891FE-380F-4AC8-9990-79B95CFC14E9}.Release|Win32.Build.0 = Release|Win32
+		{D9741D40-3B7C-4A8E-92B6-24C87D202CD2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9741D40-3B7C-4A8E-92B6-24C87D202CD2}.Debug|Win32.Build.0 = Debug|Win32
+		{D9741D40-3B7C-4A8E-92B6-24C87D202CD2}.Release|Win32.ActiveCfg = Release|Win32
+		{D9741D40-3B7C-4A8E-92B6-24C87D202CD2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

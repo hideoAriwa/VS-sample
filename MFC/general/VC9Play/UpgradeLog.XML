@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VC9Play">
+</Property><Property Name="Solution File" Value="D:\Develop\VC9Play\VC9Play.sln">
+</Property><Property Name="Date" Value="Wednesday, June 21, 2017">
+</Property><Property Name="Time" Value="11:11 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="VC9Play.sln" Description="File successfully backed up as D:\Develop\VC9Play\VC9Play.sln.old">
+</Event><Event ErrorLevel="0" Project="VC9Play" Source="VC9Play\VC9Play.vcproj" Description="Converting project file 'D:\Develop\VC9Play\VC9Play\VC9Play.vcproj'.">
+</Event><Event ErrorLevel="1" Project="VC9Play" Source="VC9Play\VC9Play.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="VC9Play" Source="VC9Play\VC9Play.vcproj" Description="MSB8012: $(TargetPath) ('D:\Develop\VC9Play\VC9Play\..\Debug\VC9Play.exe') does not match the Linker's OutputFile property value '..\Debug\VC9Play.exe' ('D:\Develop\Debug\VC9Play.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="VC9Play" Source="VC9Play\VC9Play.vcproj" Description="MSB8012: $(TargetPath) ('D:\Develop\VC9Play\VC9Play\..\Release\VC9Play.exe') does not match the Linker's OutputFile property value '..\Release\VC9Play.exe' ('D:\Develop\Release\VC9Play.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="VC9Play" Source="VC9Play\VC9Play.vcproj" Description="Done converting to new project file 'D:\Develop\VC9Play\VC9Play\VC9Play.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="VC9Play" Source="VC9Play\VC9Play.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Manager" Source="Manager\Manager.vcproj" Description="Converting project file 'D:\Develop\VC9Play\Manager\Manager.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Manager" Source="Manager\Manager.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Manager" Source="Manager\Manager.vcproj" Description="MSB8012: $(TargetPath) ('D:\Develop\VC9Play\Manager\..\Release\Manager.dll') does not match the Linker's OutputFile property value '..\Release\Manager.dll' ('D:\Develop\Release\Manager.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="Manager" Source="Manager\Manager.vcproj" Description="MSB8012: $(TargetPath) ('D:\Develop\VC9Play\Manager\..\Debug\Manager.dll') does not match the Linker's OutputFile property value '..\Debug/Manager.dll' ('D:\Develop\Debug/Manager.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Manager" Source="Manager\Manager.vcproj" Description="Done converting to new project file 'D:\Develop\VC9Play\Manager\Manager.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Manager" Source="Manager\Manager.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VC9Play.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VC9Play.sln" Description="Converted">
+</Event></UpgradeLog>

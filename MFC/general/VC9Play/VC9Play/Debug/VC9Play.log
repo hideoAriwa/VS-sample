@@ -1,0 +1,54 @@
+﻿Build started 11/13/2018 1:40:08 PM.
+     1>Project "D:\Develop\VC9Play\VC9Play\VC9Play.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\VC9Play.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VC9Play.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VC9PlayDlg.cpp
+         VC9PlayDlg.cpp
+     1>d:\develop\vc9play\vc9play\vc9playdlg.cpp(605): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\develop\vc9play\vc9play\vc9playdlg.cpp(956): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\develop\vc9play\vc9play\vc9playdlg.cpp(963): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\develop\vc9play\vc9play\vc9playdlg.cpp(1185): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(311) : see declaration of 'wcstok'
+     1>d:\develop\vc9play\vc9play\vc9playdlg.cpp(1190): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(311) : see declaration of 'wcstok'
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Debug\VC9Play.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\VC9Play.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Develop\VC9Play\Debug\VC9Play.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Debug\VC9Play.lib" /MACHINE:X86 Debug\VC9Play.res
+         Debug\VC9Play.exe.embed.manifest.res
+         Debug\AddPathDlg.obj
+         Debug\FileManager.obj
+         Debug\FileOperations.obj
+         Debug\OptionDlg.obj
+         Debug\SetDirDlg.obj
+         Debug\SetTimeDialog.obj
+         Debug\stdafx.obj
+         Debug\SystemManager.obj
+         Debug\VC9Play.obj
+         Debug\VC9PlayDlg.obj
+         D:\Develop\VC9Play\Debug\Manager.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VC9Play.exe.embed.manifest" /manifest Debug\VC9Play.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         VC9Play.vcxproj -> D:\Develop\VC9Play\VC9Play\..\Debug\VC9Play.exe
+       CustomBuildStep:
+         Description: Copying Protection Files to ...
+         Copier_Debug.cmd
+         
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "Debug\VC9Play.unsuccessfulbuild".
+         Touching "Debug\VC9Play.lastbuildstate".
+     1>Done Building Project "D:\Develop\VC9Play\VC9Play\VC9Play.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35
